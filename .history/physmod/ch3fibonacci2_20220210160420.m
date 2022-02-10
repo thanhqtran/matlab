@@ -1,5 +1,5 @@
 %def: for i >= 3, F(i) = F(i-1) + F(i-2)
-num = 20;
+num = 100;
 f1 = 1;
 f2 = 1;
 Fibo(:,1) = f1;

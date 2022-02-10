@@ -6,7 +6,7 @@ Fibo(:,1) = f1;
 Fibo(:,2) = f2;
 %loop update
 for i = 3:num 
-    Fibo(:,i) = Fibo(:,i-1) + Fibo(:,i-2);
+    Fibo(:,i) = F(:,i-1) + F(:,i-2);
 end 
 plot(Fibo)
-clearvars;
+clearvars
