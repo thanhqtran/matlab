@@ -1,0 +1,1 @@
+A = fibonacci(10)
