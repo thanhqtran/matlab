@@ -5,4 +5,4 @@ clearvars;
 %fzero(@cheby6, 1);
 global r;
 r = 10;
-fzero(@submerge, 9)
+fzero(@submerge, 2)
