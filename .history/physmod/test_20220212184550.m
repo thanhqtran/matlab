@@ -12,5 +12,4 @@ Y1 = mydiff(cumsum(X));
 Y2 = cumsum(mydiff(X));
 cumprod(X);
 myratio(X);
-myratio(cumprod(X));
-cumprod(myratio(X))
+myratio(cumprod(X))
