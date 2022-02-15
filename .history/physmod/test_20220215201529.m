@@ -7,11 +7,10 @@ global r;
 r = 50;
 fzero(@submerge, 9);
 global X;
-X = [ 1 -3 8 10 40];
+X = [ 1 3 8 10 40];
 Y1 = mydiff(cumsum(X));
 Y2 = cumsum(mydiff(X));
 cumprod(X);
 myratio(X);
 myratio(cumprod(X));
 cumprod(myratio(X));
-forall(X)
