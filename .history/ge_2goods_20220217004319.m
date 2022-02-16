@@ -1,11 +1,11 @@
-% Simple code for GE: CRS-2goods-2firms-1consumer
 clearvars;
 % shared parameters 
 alpha = .3;
+% preferences parameters
 beta = 1.1; %consumers like goods 2 better
 % different values of A1 
 for i = 1:10
-    kbar(i) = [ 0.9+i/10 ]; %testing for different kbar
+    kbar(i) = [ 1+i/10 ];
     lbar(i) = [ 1 ];
     relativebar(i) = [ kbar(i)/lbar(i) ];
     A1(i) = [1];
@@ -22,9 +22,12 @@ for i = 1:10
     W(i) = [ ((1-alpha)*A1(i)*P1(i))/((kbar(i)/lbar(i))^(-alpha)) ];
 end
 
+
 plot(kbar, R)
 xlabel('Initial Inputs Kbar')
-ylabel('Input Price r')
+ylabel('Input Price r') 
+
+
 
 %{
  plot(A1, P1)
