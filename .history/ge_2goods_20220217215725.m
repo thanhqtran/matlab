@@ -25,3 +25,9 @@ end
 plot(kbar, R)
 xlabel('Ratio of the Supply of Capital/Labor')
 ylabel('Input Price r')
+
+%{
+ plot(A1, P1)
+xlabel('Technology A1')
+ylabel('Price p1') 
+%}
