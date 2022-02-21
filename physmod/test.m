@@ -15,5 +15,3 @@ myratio(X);
 myratio(cumprod(X));
 cumprod(myratio(X));
 forall(X);
-p1 = [.4 .3];
-p2 = 1 - p1
