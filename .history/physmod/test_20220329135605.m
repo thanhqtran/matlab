@@ -17,5 +17,4 @@ cumprod(myratio(X));
 forall(X);
 k0 = 0.06:0.06:6;
 euler;
-clearvars;
-rats;
+rats
